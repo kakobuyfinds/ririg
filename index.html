@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>ZentBuy spreadsheet | Guía de tallas, fotos QC y envíos</title>
+<meta name="description" content="Aprende a usar ZentBuy spreadsheet para comparar zapatillas, ropa y accesorios. Revisa tallas, fotos QC y el coste del envío antes de elegir.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#24273e">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="ZentBuy spreadsheet | Guía de tallas, fotos QC y envíos">
+<meta property="og:description" content="Un método para comparar fichas, comprobar medidas y calcular el coste total de un pedido.">
+<!-- Investigación editorial: Bing no devolvió una primera página verificable. Se consultaron diez resultados alternativos sobre catálogo, filtros, enlaces, QC y envío, de SSFinds, zentbuyspreadsheet.com, zentbuy-spreadsheets.com, ChinaGrails, Mixfittio, GRAILS, W2C Spreadsheet y Repsheet. -->
+<!-- Palabras secundarias: ZentBuy finds; catálogo ZentBuy; fotos QC de ZentBuy; guía de envío ZentBuy.
+Cola larga: cómo usar ZentBuy spreadsheet; cómo buscar zapatillas por modelo; cómo comprobar la talla de zapatillas en centímetros; cómo medir la plantilla interior; cómo comparar tallas EU con centímetros; cómo medir una sudadera de axila a axila; cómo elegir talla de camiseta oversize; cómo medir el largo de una chaqueta; cómo medir la cintura de un pantalón en plano; cómo medir el contorno para una gorra; cómo comparar tallas de un conjunto; cómo elegir una camiseta de fútbol por medidas; cómo medir la muñeca para una pulsera; cómo revisar el cierre de una pulsera; dónde encontrar fotos QC de ZentBuy; qué fotos QC pedir para zapatillas; cómo revisar costuras en fotos QC; diferencia entre foto de vendedor y foto QC; cómo guardar enlaces de Weidian; cómo identificar la variante en Taobao; cómo comprobar la unidad de venta en 1688; cómo calcular el coste total de un pedido; diferencia entre peso real y volumétrico; cómo comparar envíos con y sin caja. -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","name":"ZentBuy spreadsheet","description":"Guía en español para comparar fichas, tallas, fotos QC y costes de envío.","inLanguage":"es"},
+    {"@type":"FAQPage","inLanguage":"es","mainEntity":[
+      {"@type":"Question","name":"¿Qué es ZentBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Es una hoja de referencia que reúne enlaces de productos y facilita su comparación por categoría, modelo o variante."}},
+      {"@type":"Question","name":"¿Qué diferencia hay entre las fotos del vendedor y las fotos QC?","acceptedAnswer":{"@type":"Answer","text":"Las fotos del vendedor ilustran la ficha. Las fotos QC, cuando están disponibles, muestran el artículo recibido para que puedas revisar detalles concretos."}},
+      {"@type":"Question","name":"¿Cómo comparo tallas de zapatillas?","acceptedAnswer":{"@type":"Answer","text":"Mide en centímetros la plantilla extraíble de un par que te quede bien. Compara esa medida con la longitud interior indicada para la variante que quieres."}},
+      {"@type":"Question","name":"¿Cómo calculo el coste total del pedido?","acceptedAnswer":{"@type":"Answer","text":"Suma el producto, el envío nacional, las comisiones aplicables, el transporte internacional y los cargos de importación que correspondan. Convierte todas las cantidades a la misma moneda."}}
+    ]}
+  ]
+}
+</script>
+<style>
+:root{color-scheme:light;--ink:#24273e;--sand:#f7f4ed;--line:#d5cfdf;--accent:#492477;--lilac:#e8def7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sand);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto}
+header{background:var(--ink);padding:.65rem 0}
+header a{color:#fff;font-weight:750}
+a{color:var(--accent);text-underline-offset:.2em}
+a:focus-visible,summary:focus-visible{outline:3px solid #8e47d1;outline-offset:3px}
+nav{padding:.75rem 0;border-bottom:1px solid var(--line)}
+nav ul,.gallery{display:grid;gap:.6rem;margin:0;padding:0;list-style:none}
+nav ul{grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr))}
+nav a{display:block;border:1px solid var(--line);border-radius:.4rem;padding:.55rem .7rem;background:#fff;font-weight:650}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;margin:1.5rem 0 2rem;background:var(--lilac);border-radius:1rem;overflow:hidden}
+.hero-copy{padding:clamp(1.2rem,4vw,3.5rem)}
+h1,h2,h3{line-height:1.12;margin:0 0 .75rem}
+h1{font-size:clamp(2.3rem,6vw,5rem);letter-spacing:-.065em;overflow-wrap:anywhere}
+h2{font-size:clamp(1.55rem,3vw,2.2rem);letter-spacing:-.025em}
+h3{font-size:1.25rem}
+p{margin:.6rem 0 1rem;max-width:68ch}
+.cta{display:inline-block;background:var(--ink);color:#fff;padding:.55rem .95rem;border-radius:.4rem;font-weight:700}
+figure{margin:0}
+img{display:block;width:100%;object-fit:cover;background:#ede8ef}
+.hero img{aspect-ratio:4/3;height:auto}
+figcaption{padding:.55rem .75rem;font-size:.9rem}
+.hero figcaption{background:#fff}
+section{margin-block:2.25rem}
+.gallery{grid-template-columns:repeat(4,minmax(0,1fr))}
+.gallery figure,article{border:1px solid var(--line);background:#fff;border-radius:.65rem;overflow:hidden}
+.gallery img{aspect-ratio:1;height:auto}
+.articles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+article{padding:1.2rem}
+article p:last-child,details p:last-child{margin-bottom:0}
+details{border-top:1px solid var(--line);padding:.85rem 0}
+summary{cursor:pointer;font-weight:700}
+footer{border-top:1px solid var(--line);padding:1.2rem 0}
+@media(max-width:660px){.hero,.articles{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/ririg/">
+</head>
+<body>
+<header><div class="wrap"><a href="https://www.hipobuyfind.com">HipobuyFind</a></div></header>
+<nav class="wrap" aria-label="Categorías del catálogo">
+<ul>
+<li><a href="https://hipobuyfind.com/category-911-Shoes.html">Zapatillas</a></li>
+<li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Sudaderas y jerséis</a></li>
+<li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">Camisetas</a></li>
+<li><a href="https://hipobuyfind.com/category-914-Jackets.html">Chaquetas</a></li>
+<li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Pantalones y shorts</a></li>
+<li><a href="https://hipobuyfind.com/category-916-Headwear.html">Gorras y gorros</a></li>
+<li><a href="https://hipobuyfind.com/category-917-Sets.html">Conjuntos</a></li>
+<li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Ropa interior</a></li>
+<li><a href="https://hipobuyfind.com/category-919-Jersey.html">Camisetas deportivas</a></li>
+<li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accesorios</a></li>
+</ul>
+</nav>
+<main class="wrap">
+<div class="hero">
+<div class="hero-copy">
+<h1>ZentBuy spreadsheet</h1>
+<p>Una guía en español para pasar de una lista de enlaces a una selección que puedas comparar. Empieza por la categoría, comprueba la variante y anota el coste completo antes de pedir.</p>
+<a class="cta" href="https://www.hipobuyfind.com">Explorar HipobuyFind</a>
+</div>
+<figure>
+<img src="https://cdn.media.amplience.net/i/sportinglife/25457839_0/Mens-Air-Force-1-07-Shoe?fmt=webp&amp;w=840" srcset="https://cdn.media.amplience.net/i/sportinglife/25457839_0/Mens-Air-Force-1-07-Shoe?fmt=webp&amp;w=480 480w, https://cdn.media.amplience.net/i/sportinglife/25457839_0/Mens-Air-Force-1-07-Shoe?fmt=webp&amp;w=840 840w" sizes="(max-width:660px) calc(100vw - 2rem), 48vw" width="840" height="630" alt="Zapatilla blanca Nike Air Force 1 ’07 vista de perfil" fetchpriority="high" loading="eager">
+<figcaption>Nike Air Force 1 ’07 · Referencia visual</figcaption>
+</figure>
+</div>
+<section aria-labelledby="modelos">
+<h2 id="modelos">Referencias de calzado, ropa y accesorios</h2>
+<p>Fotos editoriales para identificar modelos y detalles. Consulta la ficha del vendedor para confirmar la variante y la disponibilidad.</p>
+<div class="gallery">
+<figure><img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="640" loading="lazy" decoding="async" alt="Gorra Gucci de lona beige con motivo GG"><figcaption>Gorra Gucci GG</figcaption></figure>
+<figure><img src="https://assets.christiandior.com/is/image/diorprod/327C25A2970X5803_E01-1?crop=457%2C150%2C1095%2C1361&amp;wid=480" width="480" height="597" loading="lazy" decoding="async" alt="Chaqueta azul Dior Oblique con capucha y motivo jacquard"><figcaption>Chaqueta Dior Oblique</figcaption></figure>
+<figure><img src="https://ph.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-first-cap--M7088M_PM1_Look%20view.jpg?wid=480" width="480" height="480" loading="lazy" decoding="async" alt="Modelo con gorra Louis Vuitton LV First y chaqueta deportiva"><figcaption>Gorra Louis Vuitton LV First</figcaption></figure>
+<figure><img src="https://cdn.theluxurycloset.com/uploads/products/750x750/luxury-women-hermes-used-accessories-p718595-002.jpg" width="750" height="750" loading="lazy" decoding="async" alt="Pulsera Hermès Clic H de esmalte negro con cierre dorado"><figcaption>Pulsera Hermès Clic H</figcaption></figure>
+</div>
+</section>
+<section aria-labelledby="guias">
+<h2 id="guias">Guías de compra</h2>
+<div class="articles">
+<article lang="es"><h3>Cómo usar ZentBuy spreadsheet para comparar enlaces</h3><p>Si la búsqueda de ZentBuy finds devuelve varias fichas del mismo modelo, guarda el enlace original de Weidian o Taobao, el nombre del vendedor y el color exacto. En 1688, comprueba si la unidad de venta es una pieza o un lote. Registra la fecha de consulta junto al precio para poder revisarlo después.</p></article>
+<article lang="es"><h3>Cómo comparar tallas y medidas</h3><p>Usa una prenda que ya te quede bien. Mide la sudadera de axila a axila, la cintura del pantalón en plano y el largo de la chaqueta desde el hombro. Para una gorra, mide el contorno de la cabeza. Para una pulsera, mide la muñeca y coteja el perímetro interior y el tipo de cierre.</p></article>
+<article lang="es"><h3>Qué revisar en las fotos QC de ZentBuy</h3><p>Para unas zapatillas, busca vistas de ambos laterales, la suela y la etiqueta de talla. En ropa, fíjate en las costuras, el cierre y la posición del estampado. Si una medida condiciona la compra, pide una foto con la cinta extendida y el punto de inicio visible.</p></article>
+<article lang="es"><h3>Guía de envío ZentBuy para estimar el total</h3><p>Al comparar opciones del catálogo ZentBuy, registra el peso real, las dimensiones y la moneda. Pregunta qué peso usa cada transportista para facturar y compara el envío con caja y sin caja. Para España, México u otro destino, consulta las condiciones de importación vigentes antes de cerrar el pedido.</p></article>
+</div>
+</section>
+<section aria-labelledby="faq">
+<h2 id="faq">Preguntas frecuentes</h2>
+<details><summary>¿Qué es ZentBuy spreadsheet?</summary><p>Es una hoja de referencia que reúne enlaces de productos y facilita su comparación por categoría, modelo o variante.</p></details>
+<details><summary>¿Qué diferencia hay entre las fotos del vendedor y las fotos QC?</summary><p>Las fotos del vendedor ilustran la ficha. Las fotos QC, cuando están disponibles, muestran el artículo recibido para que puedas revisar detalles concretos.</p></details>
+<details><summary>¿Cómo comparo tallas de zapatillas?</summary><p>Mide en centímetros la plantilla extraíble de un par que te quede bien. Compara esa medida con la longitud interior indicada para la variante que quieres.</p></details>
+<details><summary>¿Cómo calculo el coste total del pedido?</summary><p>Suma el producto, el envío nacional, las comisiones aplicables, el transporte internacional y los cargos de importación que correspondan. Convierte todas las cantidades a la misma moneda.</p></details>
+</section>
+</main>
+<footer><div class="wrap">Guía editorial independiente · <a href="https://www.hipobuyfind.com">HipobuyFind</a></div></footer>
+</body>
+</html>
